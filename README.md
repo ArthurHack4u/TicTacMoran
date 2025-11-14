@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 🎮 TicTacMoran
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TicTacMoran es un proyecto desarrollado en React que recrea el clásico juego de **Tic Tac Toe** pero con varias mejoras únicas:
 
-## Available Scripts
+- Tablero dinámico (3×3, 4×4 o 5×5)
+- Sistema de historial para retroceder movimientos
+- Línea ganadora resaltada
+- Easter Egg oculto 👀
+- Interfaz moderna y personalizable
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Funcionalidades principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✔️ **1. Juego Clásico**
+Puedes jugar contra otra persona en la misma computadora.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✔️ **2. Tablero configurable**
+Desde el panel de configuraciones puedes elegir entre:
 
-### `npm test`
+- **3×3**
+- **4×4**
+- **5×5**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El juego se resetea automáticamente con el nuevo tamaño.
 
-### `npm run build`
+### ✔️ **3. Historial de movimientos**
+Cada jugada se guarda, permitiendo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Volver a un movimiento anterior  
+- Volver al inicio del juego (con sorpresa 👀)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✔️ **4. Resaltado de línea ganadora**
+Cuando alguien gana, las casillas de la línea:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Horizontal  
+- Vertical  
+- Diagonal
 
-### `npm run eject`
+se iluminan automáticamente.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✔️ **5. Easter Egg**
+Si haces clic **3 veces seguidas** en:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ir a iniciar el juego
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Se desbloquea un mensaje oculto 😎.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tecnologías utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React.js**
+- **JavaScript**
+- **CSS**
+- **Vite**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📦 Instalación
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clona el repositorio:
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/ArthurHack4u/TicTacMoran.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Entra al proyecto:
 
-### Making a Progressive Web App
+```bash
+cd TicTacMoran
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instala las dependencias:
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Inicia el proyecto:
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contribuciones son bienvenidas 😊
 
-### `npm run build` fails to minify
+## 👨‍🎓 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bryan Arturo Moran Escalante
+
+Instagram: @moran.print
