@@ -42,7 +42,7 @@ se iluminan automáticamente.
 ### ✔️ **5. Easter Egg**
 Si haces clic **3 veces seguidas** en:
 
-Ir a iniciar el juego
+```Ir a iniciar el juego```
 
 Se desbloquea un mensaje oculto 😎.
 
